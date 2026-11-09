@@ -19,8 +19,6 @@ Interfaces with the same name can join their properties together. Type aliases c
 
 ## When to choose which
 
-I Use `interface` for an object like a user or product, especially when I want to add more properties using `extends`.
-
-I Use `type` for choices like `"success" | "error"` or when a value can be more than one type, like `string | number`.
+I choose `interface` for an object like a user or product, especially when I want to add more properties using `extends`. I choose `type` for choices like `"success" | "error"` or when a value can be more than one type, like `string | number`.
 
 
